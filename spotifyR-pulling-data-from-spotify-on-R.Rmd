@@ -115,7 +115,7 @@ tracks2 %>%
   bind_rows(data.frame(artist.name = '---average---',track.name = '---average---',energy=mean(tracks2$energy),valence=mean(tracks2$valence),track.popularity=mean(tracks2$track.popularity))) %>%
   arrange(energy) 
 ```
-I also calculated the average energy, valence and popularity for all songs in my playlist and lastly, with a tolerance of 5%, I found the songs that are most representative of it. ***Those are the 3 songs that most resemble my average taste in music.**
+I also calculated the average energy, valence and popularity for all songs in my playlist and lastly, with a tolerance of 5%, I found the songs that are most representative of it. **Those are the 3 songs that most resemble my average taste in music.**
 As you can see, one can extract many insights with just a quick look at the data, for instance: I like songs with high energy and middle-of-the-pack in terms of valence and popularity. :)
 
 ## Deeper analysis of song features
